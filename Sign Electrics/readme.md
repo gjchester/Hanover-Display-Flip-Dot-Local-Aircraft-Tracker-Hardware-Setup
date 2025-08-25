@@ -41,7 +41,7 @@ To assist further as you look at the 3 pin connecter, the terminal closest to th
 
 **LED signs**
 
-Hanwell added labels to the PCB, and movoed the location, hwoever it is now much more obvious where the 24V needs to be connected via a green power connector.  In my LED sign there is a 4 pole connector, marked 0V/24V/0V/24V,  it is unknown why this has been chosen, potentially the PCB design was first used on Flip Dots with a separate lighting circuit, and the re-used o the LED signs. It is strongly recommetned that power should only be wired to the LEFT hand Side ternals until someone documments where the right pair are wired to.
+Hanwell added labels to the PCB, and moved the location, however it is now much more obvious where the 24V needs to be connected via a green power connector.  In my LED sign there is a 4 pole connector, marked 0V/24V/0V/24V,  it is unknown why this has been chosen, potentially the PCB design was first used on Flip Dots with a separate lighting circuit, and the re-used o the LED signs. It is strongly recommetned that power should only be wired to the LEFT hand Side ternals until someone documments where the right pair are wired to.
 
 ![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/LEDDot%20Wiring.jpg?raw=true)
 
