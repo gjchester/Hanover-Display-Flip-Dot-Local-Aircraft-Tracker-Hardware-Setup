@@ -12,10 +12,10 @@ The usual source for these displays is eBay, or Bus Collector/memorabilia sites,
 
 I’m dividing this write up into a few sections mainly so it not a huge wall of text…
 
--Sign Electrics
--Sign Comms
--Pi Setup
--Other considerations
+'-Sign Electrics
+'-Sign Comms
+'-Pi Setup
+'-Other considerations
 
 
 
