@@ -6,7 +6,7 @@ Simon's code was written in 2023 and based on the Pi Buster OS release.  His als
 
 First up the sign is a Hanover Displays - 84x8 Flip Dot Display, these were originally used on public transport (usually busses) to display route number and destination.   They are still used on some trains, but they have been replaced by LED versions as the LED’s are brighter and done need additional lighting after dark.  There are also some that are hybrids, using flip dot and a LED in each segment to light the dot up, but I’m digressing.  
 
-I so also own a LED version and where things differ for the LED sign these will be noted too.
+I also own a LED version and where things differ for the LED sign these will be noted too.
 
 FlipDots are electromagnetic in nature, I'm not going to cover how they work, John Whittington has already done it much better than I can - https://engineer.john-whittington.co.uk/2017/11/adventures-flippy-flip-dot-display/ .  They are in effect like E-ink, once a message is sent to them, they retain the message even after power loss.
 
