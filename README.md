@@ -2,7 +2,7 @@
 
 This is not my code.   This is a companion piece to Simon Prickett's wonderful local aircraft tracker    https://github.com/simonprickett/local-aircraft-tracker/.  Simon has written the code and helped with a few errors I saw along the way.
 
-Simon's code was written in 2023 and based on the Pi Buster OS release.  His also has some processing on the Pi attached to the sign and some on a PC on the network.  I wanted to do this entirely in the pi and keep all the electronics out of sight and in the sign.  This is my documentation on my build progress to hopefully help someone else following out footsteps.
+Simon's code was written in 2023 and based on the Pi Buster OS release.  His also has some processing on the Pi attached to the sign and some on a PC on the network.  I wanted to do this entirely in the Pi and keep all the electronics out of sight and in the sign.  This is my documentation on my build progress to hopefully help someone else following our footsteps.
 
 First up the sign is a Hanover Displays - 84x8 Flip Dot Display, these were originally used on public transport (usually busses) to display route number and destination.   They are still used on some trains, but they have been replaced by LED versions as the LED’s are brighter and done need additional lighting after dark.  There are also some that are hybrids, using flip dot and a LED in each segment to light the dot up, but I’m digressing.  
 
