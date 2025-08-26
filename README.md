@@ -25,7 +25,7 @@ I’m dividing this write up into a few sections mainly so it not a huge wall of
  * Sign Electrics
  * Sign Comms
  * Pi Electrics
- * Pi Test and Config
+ * Pi Setup, Test and Config
  * Other considerations
 
 
