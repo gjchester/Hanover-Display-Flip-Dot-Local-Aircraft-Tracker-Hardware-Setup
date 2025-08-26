@@ -49,7 +49,9 @@ Hanwell added labels to the PCB, and moved the location, however it is now much 
 
 I wanted the lighting circuit to be externally switchable and intended to remove the supplied external wiring loom.  This leaves a hole where the loom entered the sign.  Hanover have precut 4 holes one on each corner, but three are plugged.   The hole is 16MM and a 16mm black latching 12V-24V switch with an internal LED fitted perfectly and blended in.
 
-The incoming power feed is split, via multiway Wago connectors and power is feed to the sign to power it on, but also to the switch.  An additional power feed goes to the power the Pi, this is covered in the  Pi section).   The switch was wired so the Lighting circuit power came in through the switch, then through the LED and then out to the lighting circuit.  This mean the the lights are controlled by the push button on the external case, allowing mw to only turn themn on whe needed,  and the switch fitted so well gave a neat finish to the setup.
+![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/Button.jpg?raw=true)
+
+The incoming power feed is split, via multiway Wago connectors and power is feed to the sign to power it on, but also to the switch.  An additional power feed goes to the power the Pi, this is covered in the  Pi section).   The switch was wired so the Lighting circuit power came in through the switch, then through the LED and then out to the lighting circuit.  This mean the the lights are controlled by the push button on the external case, allowing mw to only turn themn on when needed,  and the switch fitted so well gave a neat finish to the setup.
 
 ![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/SwitchWiring.jpg?raw=true)
 
