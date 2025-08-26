@@ -64,9 +64,14 @@ When powered a Flip Dot sign will do a self test, to determine the size of the s
 
 A LED Sign will display one lit Pixel at the top left.
 
-There are also three LED's on the board.   LED 1 turns on and off once per second. This Heartbeat shows that the processor is running, which means the sign has power, the use and status of the other LEDs will be mentioned later. 
+There are also two or three LED's on the board.   LED 1 turns on and off once per second. This Heartbeat shows that the processor is running, which means the sign has power, the use and status of the other LEDs will be mentioned later. 
+
+![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/StatusLED.jpg?raw=true)
 
 You can also short Link E on the 5 way PIN connector to intiate a self test but the  flashign LED is all that is really needed to confirm power is being supplied.
+
+![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/JumperLK3.jpg?raw=true)
+
 
 That’s all for the Power side of the sign.
 
