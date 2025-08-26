@@ -24,16 +24,18 @@ The Aircraft Tracker software is only set to drive one sign of a set size.  Tryi
 
 Please locate the rotary selected and note the switch position.   Simons code default is set to address 5, I chose to leave mine at 1 and change the code slightly.
 
-![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/FlipDot%20Wiring.jpg?raw=true)
+![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Comms/Rotary.jpg?raw=true)
 
-USB to RS485 Controller
+**USB to RS485 Controller**
 
 Any RS485 controller will suffice, I have tried a Waveshare Industrial USB TO RS485 with a CH343G chipset, and cheap AliExpress sources USB To RS485 converter using the CH340 and PL2303 chipset.  All were seen by the Pi and all worked as expected although the Waveshare device does have a better build quality.
 
 For the purposes of this we are only wiring up the Data In line.   Daisy chain the data out to another signs data in is possible again with the proviso that the sign should be set to the same address and be the same size.
 
-CONNECTING THE WIRING
-Take a photograph of the setup BEFORE you undo the wires to the plug.    
+**CONNECTING THE WIRING**
+
+_ You are advised to take a photograph of the setup BEFORE you undo the wires to the plug. _
+
 
 On a Flip Dot I have the wiring is in the order BLACK / RED / BLACK / RED.  The wire nearest to the POWER connector is Black.
 On a LED sign I have the wiring is in the order BLACK / RED / BLACK / RED.  The wire furthest to the POWER connector is Black.
