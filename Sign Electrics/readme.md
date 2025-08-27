@@ -36,20 +36,20 @@ This is probably the simplest part of the process.  On removing the back panel i
 Incoming power wires are connected to the 3 PIN orange power block as shown in the image.  
 To assist further as you look at the 3 pin connecter, the terminal closest to the sign / PCB edge is the lighting power in, the centre is used by both lighting and power in as a neutral, and the furthest from the sign / PCB edge is sign power in.
 
-![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/FlipDot%20Wiring.jpg?raw=true)
+![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/FlipDot%20Wiring.jpg)
 
 
 **LED signs**
 
 Hanwell added labels to the PCB, and moved the location, however it is now much more obvious where the 24V needs to be connected via a green power connector.  In my LED sign there is a 4 pole connector, marked 0V/24V/0V/24V,  it is unknown why this has been chosen, potentially the PCB design was first used on Flip Dots with a separate lighting circuit, and the re-used o the LED signs. It is strongly recommetned that power should only be wired to the LEFT hand Side ternals until someone documments where the right pair are wired to.
 
-![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/LEDDot%20Wiring.jpg?raw=true)
+![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/LEDDot%20Wiring.jpg)
 
 **LIGHTING POWER - Flip Dot Only**
 
 I wanted the lighting circuit to be externally switchable and intended to remove the supplied external wiring loom.  This leaves a hole where the loom entered the sign.  Hanover have precut 4 holes one on each corner, but three are plugged.   The hole is 16MM and a 16mm black latching 12V-24V switch with an internal LED fitted perfectly and blended in.
 
-![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/Button.jpg?raw=true)
+![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/Button.jpg)
 
 The incoming power feed is split, via multiway Wago connectors and power is feed to the sign to power it on, but also to the switch.  An additional power feed goes to the power the Pi, this is covered in the  Pi section).   The switch was wired so the Lighting circuit power came in through the switch, then through the LED and then out to the lighting circuit.  This mean the the lights are controlled by the push button on the external case, allowing mw to only turn themn on when needed,  and the switch fitted so well gave a neat finish to the setup.
 
@@ -66,11 +66,11 @@ A LED Sign will display one lit Pixel at the top left.
 
 There are also two or three LED's on the board.   LED 1 turns on and off once per second. This Heartbeat shows that the processor is running, which means the sign has power, the use and status of the other LEDs will be mentioned later. 
 
-![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/StatusLED.jpg?raw=true)
+![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/StatusLED.jpg)
 
 You can also short Link E on the 5 way PIN connector to intiate a self test but the  flashign LED is all that is really needed to confirm power is being supplied.
 
-![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/JumperLK3.jpg?raw=true)
+![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/JumperLK3.jpg)
 
 
 That’s all for the Power side of the sign.
