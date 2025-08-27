@@ -22,8 +22,8 @@ Other sizes do exit,  There are bigger resolution signs (128* x 32 Front Display
 
 I’m dividing this write up into a few sections mainly so it not a huge wall of text…
 
- * Sign Electrics
- * Sign Comms
+ * [Sign Electrics](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Sign%20Electrics)  
+ * [Sign Comms](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Sign%20Comms)
  * Pi Electrics
  * Pi Setup, Test and Config
  * Other considerations
