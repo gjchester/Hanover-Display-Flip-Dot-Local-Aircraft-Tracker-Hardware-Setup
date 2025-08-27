@@ -51,9 +51,13 @@ I wanted the lighting circuit to be externally switchable and intended to remove
 
 ![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/Button.jpg)
 
-The incoming power feed is split, via multiway Wago connectors and power is feed to the sign to power it on, but also to the switch.  An additional power feed goes to the power the Pi, this is covered in the  Pi section).   The switch was wired so the Lighting circuit power came in through the switch, then through the LED and then out to the lighting circuit.  This mean the the lights are controlled by the push button on the external case, allowing mw to only turn themn on when needed,  and the switch fitted so well gave a neat finish to the setup.
+The incoming power feed is split, ion my case via multiway Wago connectors and power is feed to the sign to power it on, but also to the switch.  An additional power feed goes to the power the Pi, this is covered in the  Pi section).   
+![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/Wago-5Way.jpg)
 
-![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/SwitchWiring.jpg?raw=true)
+
+The switch was wired so the Lighting circuit power came in through the switch, then through the LED and then out to the lighting circuit.  This mean the the lights are controlled by the push button on the external case, allowing mw to only turn themn on when needed,  and the switch fitted so well gave a neat finish to the setup.
+
+![alt text](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Electrics/SwitchWiring.jpg)
 
 
 **Power Wiring Testing**
