@@ -30,6 +30,10 @@ Please locate the rotary selected and note the switch position.   Simons code de
 
 Any RS485 controller will suffice, I have tried a Waveshare Industrial USB TO RS485 with a CH343G chipset, and cheap AliExpress sources USB To RS485 converter using the CH340 and PL2303 chipset.  All were seen by the Pi and all worked as expected although the Waveshare device does have a better build quality.
 
+
+![RS485 adapter](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Comms/RS485_1.jpg)   ![RS485 adapter](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Comms/RS485_2.jpg)  ![RS485 adapter](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/Sign%20Comms/RS485_3.jpg)
+
+
 For the purposes of this we are only wiring up the Data In line.   Daisy chain the data out to another signs data in is possible again with the proviso that the sign should be set to the same address and be the same size.
 
 **CONNECTING THE WIRING**
