@@ -25,7 +25,7 @@ I’m dividing this write up into a few sections mainly so it not a huge wall of
  * [Sign Electrics](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Sign%20Electrics)  
  * [Sign Comms](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Sign%20Comms)
  * [Pi Electrics](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/PiElectrics)
- * [Pi Setup And Config](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Pi%20Setup%20And%20Config)
+ * [Pi Setup And Config](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Pi%20Setup%20and%20Config)
  * [Testing](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Testing )
  * [Other considerations](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Other%20considerations)
 
