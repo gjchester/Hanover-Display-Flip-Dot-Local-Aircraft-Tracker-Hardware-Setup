@@ -13,11 +13,11 @@ FlipDots are electromagnetic in nature, I'm not going to cover how they work, Jo
 The usual source for these displays is eBay, or Bus Collector/memorabilia sites, Many Bus Operators have moved to LEDs already, so these tend to be in the hands of either collectors, hobbyists, or bus restorers.    These displays are heavy and have a large piece of safety glass at the front so are not easily shipped.
 
 A typcial Bus Set consisted of three units, 
-* A Front Destination board, commonly 96x16 dots, the fron is a bigger sign  and will either use a bigger font to help make it more visable at a greater distances, or multiple lines of text for example a VIA type message.
-* A Side Destination Board,  usually 84x8 flip dots, used to showe the route number and destiation
-* A Side or Rear Board usually 20x14 dots, these typeically just have the route number.
+* A Front Destination board, commonly 96x16 dots, the front is a bigger sign  and will either use a bigger font to help make it more visable at a greater distances, or multiple lines of text for example a VIA type message.
+* A Side Destination Board,  usually 84x8 dots, usually used to show the route number and destiation
+* A Side or Rear Board usually 20x14 dots, these typically just have the route number.
 
-Other sizes do exit,  There are bigger resolution signs (128* x 32 Front Display, and 28*14 Side/Rear Display) for the Chinese market due to the complexity of Chinese characters, and some 7 row variants also exist.   Mine is a 84 x 8 unit and I beeive Simon has a 86 x 7 unit.   This differnet isn't really of great relevence to this document.
+Other sizes do exit,  There are bigger resolution signs (128* x 32 Front Display, and 28*14 Side/Rear Display) for the Chinese market due to the complexity of Chinese characters, and some 7 row variants also exist.   Mine is a 84 x 8 unit and I beeive Simon has a 86 x 7 unit.   This differnce isn't really of great relevence to this document, ither tha n telling the code what sign size it should be sending to.
 
 
 I’m dividing this write up into a few sections mainly so it not a huge wall of text…
@@ -25,8 +25,9 @@ I’m dividing this write up into a few sections mainly so it not a huge wall of
  * [Sign Electrics](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Sign%20Electrics)  
  * [Sign Comms](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Sign%20Comms)
  * [Pi Electrics](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/PiElectrics)
- * Pi Setup, Test and Config
- * Other considerations
+ * [Pi Setup And Config](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Pi%20Setup%20And%20Config)
+ * [Testing](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Testing )
+ * [Other considerations](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Other%20considerations)
 
 
 
