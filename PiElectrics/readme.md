@@ -4,6 +4,8 @@ Thankfully there are a multitude of adapter aimed as the auto market that conver
 
 ![A small converter unit that takes 12 or 24V and oputputs 5V via a USB socket](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/blob/main/PiElectrics/Car12_24toUSB.jpg)
 
+**NOTE:**  The Pi 4 and Pi 5 need more  power than a Pi 3 or Pi zero 2.  The Pi 4 specs say its needs 5V / 3A, and the Pi 5 needs 5V/5A.  Your choice of Pi should guide your choice of convertor.  Raspberry Pi's are capable of running on underpowered chargers, but unexpected issues or SD car corruption may be seen.
+
 
 The power to the converter was connected in my case by multiway Wago connectors.  Alternatively soldering, or using terminal blocks is also fine, I happened to have suitable Wago connectors available.   Crimping cables together is also acceptable as long as the crimps are tight.   If you solder or use crimps the cable ends must then be insulated in some way to prevent a short to any part of the case or other part of the PCB.
 
