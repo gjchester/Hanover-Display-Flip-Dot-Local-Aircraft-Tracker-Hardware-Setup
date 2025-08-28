@@ -27,6 +27,10 @@ Hanover generally do not respond to requests for data, however, some of the manu
 Simon has used a 20V laptop PSU, I used a “wall wart” type 24V Power Supply rated for 72W/3A, these are usually sold as PSU’s for LED Strips.  Underpowering these signs can give unpredictable results and in my use case I also wanted to power a Pi, hence the 3A supply.
 I will refer to 24V here, as that is my set up.   The colours of the connectors are the colours in my sign.   I assume they are the same in all signs, but please verify this yourself. 
 
+**NOTE:** Pi 3 and Pi Zero W spec calls for a 5V 2.5A power supply, but they can run on the 2A that my chosen convert is rated for (see Pi Electrics section).  The Pi 4 and Pi 5 need more power than a Pi 3 or Pi zero 2. The Pi 4 specs say its needs 5V / 3A, and the Pi 5 needs 5V/5A. Your choice of Pi should guide your choice of convertor. Raspberry Pi's are capable of running on underpowered chargers, but unexpected issues or SD card corruption may be seen.
+If you are aiming for the "in sign" approach then if you do use a higher rater 12/24V to 5V convertor and you may also need to use a higher rated 24V PSU to ensure all components are correclty powered. If you are planning on having the Pi outside the sign case this is less relevent as you will problaby be powering the Pi vua its own mains PSU.
+
+
 **SIGN POWER**
 
 This is probably the simplest part of the process.  On removing the back panel it should be very easy to follow the wires to work out the power input points.  
