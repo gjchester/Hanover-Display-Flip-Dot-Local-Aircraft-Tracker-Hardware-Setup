@@ -10,17 +10,17 @@ Hanover Signs have a test mode, the controller sends a signal out that causes al
 
 Sam Briggs wrote a python driver, and a way to emulate the Hanover Controller test mode.  The code does much more but we just need the sign test.  Start by GIT cloning his code to your Pi, I have it under the user home directory on mine
 
-**git clone https://github.com/briggySmalls/pyflipdot**
+`git clone https://github.com/briggySmalls/pyflipdot`
 
 then move into that directory run the setup 
 
-**python setup.py install**
+`python setup.py install`
 
 He has also posted the code to start a test  https://briggysmalls.github.io/pyflipdot/usage.html  this is replicated here in case Sam ever removes his document, but I do not wish to claim that hsi is my code is mine, its not.
 
 Copy the code on the useage page or copy the TestSign.py and Stoptest.py   I’m lazy and I named them that way so tab complete works quicker
 
-After you have the code installed and the start and stop file you can trigger a sign test.  This is done by sending the command **pyflipdot TestSign.py**  (or the Stoptest.py), once run  a FlipDot will run through a few test patterns, and the LED dot will have a rolling message telling you the size, and firmware version.  
+After you have the code installed and the start and stop file you can trigger a sign test.  This is done by sending the command `pyflipdot TestSign.py`  (or the Stoptest.py), once run  a FlipDot will run through a few test patterns, and the LED dot will have a rolling message telling you the size, and firmware version.  
 
 This is sent to all sign addresses so only really serves to show the USB to RS485 is working as expected.
 
@@ -36,21 +36,21 @@ There are a few thing to note before we start.  John has a 56×7 display that ha
 
 Start by GIT cloning his code to your Pi, I have it under the user home directly 
 
-**https://github.com/tuna-f1sh/node-flipdot**
+`https://github.com/tuna-f1sh/node-flipdot`
 
 then change into that directory and run the setup 
 
-**npm install -g flipdot-display**
+`npm install -g flipdot-display`
 
 We can then send the command to the display.   This is where the address issue may be the most obvious, while my display is address is 1 I have to use address 2 in this code (remember my FlipDot is is 8 rows x 86 colums) 
 
-**flipdot -a 2 -r 8 -c 86**
+`flipdot -a 2 -r 8 -c 86`
 
 the screen should echo this following and if all goes well the sign works.
 
-**FlipDot port open on /dev/ttyUSB0 @: 4800
+`FlipDot port open on /dev/ttyUSB0 @: 4800
 Sending: Hello World!! 
-Written!**
+Written!`
 
 
 
