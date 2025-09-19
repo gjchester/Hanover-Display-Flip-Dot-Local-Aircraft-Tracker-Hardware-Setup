@@ -54,4 +54,8 @@ Sending: Hello World!!
 Written!
 ```
 
+If this step fails then it down to trial and error and persistance, first you can try and change the address unitl you get some response  eg `flipdot -a 3 -r 8 -c 86` then `flipdot -a 4 -r 8 -c 86` and work through the settings.
+
+The other thing to try is to remove the rows and column so it used the default, this will result in a squashed output but should at least let you work out the address part by trial and error.
+
 
