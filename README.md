@@ -14,8 +14,8 @@ The usual source for these displays is eBay, or Bus Collector/memorabilia sites,
 
 A typcial Bus Set consisted of three units, 
 * A Front Destination board, commonly 96x16 dots, the front is a bigger sign  and will either use a bigger font to help make it more visable at a greater distances, or multiple lines of text for example **X1 Trumpton** on the top and then **VIA Camberwick Green** below.
-* A Side Destination Board,  usually 84x8 dots, usually used to show the route number and destination, ie** X1 Trumpton**
-* A Side or Rear Board usually 20x14 dots, these typically just have the route number, ex **x1**
+* A Side Destination Board,  usually 84x8 dots, usually used to show the route number and destination, ie **X1 Trumpton**
+* A Side or Rear Board usually 20x14 dots, these typically just have the route number, ex **X1**
 
 Other sizes do exit,  There are bigger resolution signs (128* x 32 Front Display, and 28*14 Side/Rear Display) for the Chinese market due to the complexity of Chinese characters, and some 7 row variants also exist.   Mine is a 84 x 8 unit and I beleive Simon has a 86 x 7 unit.   This differnce isn't really of great relevence to this document, other than telling the code what sign size it should be sending to.
 
