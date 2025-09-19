@@ -4,7 +4,7 @@ This is for Hanover displays, there are other Flip Dot sign makers and other Bus
 
 You need to have some basic understanding of Linux, I’ll try and link to helpful sites, but I can’t cover everything.
 You need basic electronics knowledge, but nothing to complicated but you’ll be opening covers, and changing wiring, If you can follow the instructions and take your time you should be fine.  However, if it doesn’t work, you’ll need to back track and find out why.
-With the back off electroncis are exposed, please take care, whiel the sign is at 24V therte aerw a nbuemr of capacater than can hold a charge even after being powered off.  
+With the back off electronics are exposed, please take care, while the sign is at 24V therte aerw a nbuemr of capacater than can hold a charge even after being powered off.  
 
 I planned to have everything inside the sign, and it works well that way when the back cover ios off, unfortunately the Hanover cases are reasonably strong metal cases, with some shielding plates behind the display to prevent RF interference.   This means if you are putting the Pi inside the Wi-Fi signals are attenuated and may effectively be blocked.  Its not a perfect faraday cage, but the Pi’s only have small inbuilt antenna.
 Possible workarounds are to use a USB based Wi-Fi Adapter that can have an extension cable antenna and disable the onboard Pi one, or modify the Pi to add a U.FL connector.  Modifying the Pi is potential cleaner, and easier but will invalidate any warranty and RF compliance.  It is your choice how to proceed.
