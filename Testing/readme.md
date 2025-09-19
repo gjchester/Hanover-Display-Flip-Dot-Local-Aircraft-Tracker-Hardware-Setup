@@ -48,9 +48,10 @@ We can then send the command to the display.   This is where the address issue m
 
 the screen should echo this following and if all goes well the sign works.
 
-**FlipDot port open on /dev/ttyUSB0 @: 4800
-Sending: Hello World!! 
-Written!**
-
+```
+FlipDot port open on /dev/ttyUSB0 @: 4800
+Sending: Hello World!!
+Written!
+```
 
 
