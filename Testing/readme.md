@@ -59,3 +59,15 @@ If this step fails then it down to trial and error and persistance, first you ca
 The other thing to try is to remove the rows and column so it used the default, this will result in a squashed output but should at least let you work out the address part by trial and error.
 
 
+It is useful to check that the LED’s status on the processor board.  When in normal use LED 1 (Heartbeat) will flash once about couple of seconds to show the sign electronics are working (ie not crashed) and LED 2 (Comms) will flash briefly whan  the sign electrioncis receives data for the sign. 
+
+On signs with a 7070 & 7080 Board LED 3 will flash every time the processor sends a signal to  Flip/LED display. 
+
+LED2 can display the following status indications via its status.   
+
+• brief flash when the sign receives a valid comms message addressed to it. 
+
+• long flash if the sign receives a message with bad contents. 
+
+• permanently on if the sign has not received a valid message within the previous 60 seconds. 
+
