@@ -2,7 +2,7 @@
 
 If you have got this far, we are now on the final steps, however this can be the most frustrating part as there is little feedback, it usually either works or does not.
 
-Thankfully there a few programs we can use to help us.  You do not need to follow these in order, but if you jump to the end and it fails you need to come back here and do these steps in order to work out where the issue is.  If you want to jump ahead go to the Running The Program page Running%20The%20Program
+Thankfully there a few programs we can use to help us.  You do not need to follow these in order, but if you jump to the end and it fails you need to come back here and do these steps in order to work out where the issue is.  If you want to jump ahead go to the  [Running the Software](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Running%20The%20Program) page.
 
 **Wiring check**
 
