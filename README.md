@@ -29,7 +29,7 @@ I’m dividing this write up into a few sections mainly so it not a huge wall of
  * [Pi OS Setup](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Pi%20Setup)
  * [Pi Program Setup and Config](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Pi%20Program)
  * [Testing](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Testing )
+ * [Running the Software](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Running%20The%20Program)
  * [Other considerations](https://github.com/gjchester/Hanover-Display-Flip-Dot-Local-Aircraft-Tracker-Hardware-Setup/tree/main/Other%20considerations)
-
 
 
